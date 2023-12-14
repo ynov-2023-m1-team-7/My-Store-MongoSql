@@ -10,4 +10,4 @@ CMD [ "mongod" ]
 
 # docker build -t my-store-mongo .
 
-# docker run --env-file .env --name my-store-mongo -p 27017:27017 my-store-mongo
+# docker run --env-file .env --name my-store-mongo -p 27017:27017 my-store-mongo -d
